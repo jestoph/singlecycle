@@ -189,7 +189,7 @@ begin
     pc_mux : mux_2to1_12b 
     port map ( mux_select => do_jump,
                data_a     => sig_curr_pc, -- Default to passing on current pc
-               data_b     => sig_isn(11 downto 0),
+               data_b     => sig_insn(11 downto 0),
                data_out   => sig_curr_pc_or_branch);
 
     next_pc : adder_12b 
