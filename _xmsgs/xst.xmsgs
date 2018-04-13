@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="752" delta="old" >&quot;<arg fmt="%s" index="1">H:/Comp3211/Project/project1/single_cycle_core.vhd</arg>&quot; line <arg fmt="%d" index="2">231</arg>: Unconnected input port &apos;<arg fmt="%s" index="3">byte_addr</arg>&apos; of component &apos;<arg fmt="%s" index="4">data_memory</arg>&apos; is tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="old" >&quot;<arg fmt="%s" index="1">H:/Comp3211/Project/project1/instruction_memory.vhd</arg>&quot; line <arg fmt="%d" index="2">77</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">H:/Comp3211/Project/project1/instruction_memory.vhd</arg>&quot; line <arg fmt="%d" index="2">40</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;reset&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_0$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0001000000010000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_1$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0001000000100001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_2$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">1000000000010011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_3$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">1000000100100100</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_4$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0011000000110010</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_5$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0011000001000011</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_6$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_7$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_8$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_9$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_10$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_11$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_12$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_13$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_14$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="old" >Register &lt;<arg fmt="%s" index="1">var_insn_mem_15$mux0000</arg>&gt; in unit &lt;<arg fmt="%s" index="2">instruction_memory</arg>&gt; has a constant value of <arg fmt="%s" index="3">0000000000000000</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="error" file="Xst" num="1549" delta="new" >&quot;<arg fmt="%s" index="1">H:/Comp3211/Project/project1/alu_16b.vhdl</arg>&quot; line <arg fmt="%d" index="2">69</arg>: Range bound must be a constant.
+</msg>
+
+</messages>
+

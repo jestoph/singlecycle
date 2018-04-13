@@ -1,0 +1,226 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> Reading design: single_cycle_core.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "single_cycle_core.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "single_cycle_core"
+Output Format                      : NGC
+Target Device                      : xc4vlx15-12-sf363
+
+---- Source Options
+Top Module Name                    : single_cycle_core
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 32
+Number of Regional Clock Buffers   : 16
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "H:/Comp3211/Project/project1/mux_2to1_1b.vhd" in Library work.
+Architecture behavioural of Entity mux_2to1_1b is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/program_counter.vhd" in Library work.
+Architecture behavioral of Entity program_counter is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/adder_12b.vhdl" in Library work.
+Architecture behavioural of Entity adder_12b is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/instruction_memory.vhd" in Library work.
+Architecture behavioral of Entity instruction_memory is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/sign_extend_4to16.vhd" in Library work.
+Architecture behavioral of Entity sign_extend_4to16 is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/control_unit.vhd" in Library work.
+Architecture behavioural of Entity control_unit is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/mux_2to1_4b.vhd" in Library work.
+Architecture structural of Entity mux_2to1_4b is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/register_file.vhd" in Library work.
+Architecture behavioral of Entity register_file is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/mux_2to1_16b.vhd" in Library work.
+Architecture structural of Entity mux_2to1_16b is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/alu_16b.vhdl" in Library work.
+Entity <alu_16b> compiled.
+Entity <alu_16b> (Architecture <behavioural>) compiled.
+Compiling vhdl file "H:/Comp3211/Project/project1/data_memory.vhd" in Library work.
+Architecture behavioral of Entity data_memory is up to date.
+Compiling vhdl file "H:/Comp3211/Project/project1/single_cycle_core.vhd" in Library work.
+Architecture structural of Entity single_cycle_core is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <single_cycle_core> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <program_counter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <adder_12b> in library <work> (architecture <behavioural>).
+
+Analyzing hierarchy for entity <instruction_memory> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <sign_extend_4to16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <control_unit> in library <work> (architecture <behavioural>).
+
+Analyzing hierarchy for entity <mux_2to1_4b> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <register_file> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux_2to1_16b> in library <work> (architecture <structural>).
+
+Analyzing hierarchy for entity <alu_16b> in library <work> (architecture <behavioural>).
+
+Analyzing hierarchy for entity <data_memory> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux_2to1_1b> in library <work> (architecture <behavioural>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <single_cycle_core> in library <work> (Architecture <structural>).
+WARNING:Xst:752 - "H:/Comp3211/Project/project1/single_cycle_core.vhd" line 231: Unconnected input port 'byte_addr' of component 'data_memory' is tied to default value.
+Entity <single_cycle_core> analyzed. Unit <single_cycle_core> generated.
+
+Analyzing Entity <program_counter> in library <work> (Architecture <behavioral>).
+Entity <program_counter> analyzed. Unit <program_counter> generated.
+
+Analyzing Entity <adder_12b> in library <work> (Architecture <behavioural>).
+Entity <adder_12b> analyzed. Unit <adder_12b> generated.
+
+Analyzing Entity <instruction_memory> in library <work> (Architecture <behavioral>).
+WARNING:Xst:790 - "H:/Comp3211/Project/project1/instruction_memory.vhd" line 77: Index value(s) does not match array range, simulation mismatch.
+WARNING:Xst:819 - "H:/Comp3211/Project/project1/instruction_memory.vhd" line 40: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <reset>
+INFO:Xst:2679 - Register <var_insn_mem_0$mux0000> in unit <instruction_memory> has a constant value of 0001000000010000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_1$mux0000> in unit <instruction_memory> has a constant value of 0001000000100001 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_2$mux0000> in unit <instruction_memory> has a constant value of 1000000000010011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_3$mux0000> in unit <instruction_memory> has a constant value of 1000000100100100 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_4$mux0000> in unit <instruction_memory> has a constant value of 0011000000110010 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_5$mux0000> in unit <instruction_memory> has a constant value of 0011000001000011 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_6$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_7$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_8$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_9$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_10$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_11$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_12$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_13$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_14$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+INFO:Xst:2679 - Register <var_insn_mem_15$mux0000> in unit <instruction_memory> has a constant value of 0000000000000000 during circuit operation. The register is replaced by logic.
+Entity <instruction_memory> analyzed. Unit <instruction_memory> generated.
+
+Analyzing Entity <sign_extend_4to16> in library <work> (Architecture <behavioral>).
+Entity <sign_extend_4to16> analyzed. Unit <sign_extend_4to16> generated.
+
+Analyzing Entity <control_unit> in library <work> (Architecture <behavioural>).
+Entity <control_unit> analyzed. Unit <control_unit> generated.
+
+Analyzing Entity <mux_2to1_4b> in library <work> (Architecture <structural>).
+Entity <mux_2to1_4b> analyzed. Unit <mux_2to1_4b> generated.
+
+Analyzing Entity <mux_2to1_1b> in library <work> (Architecture <behavioural>).
+Entity <mux_2to1_1b> analyzed. Unit <mux_2to1_1b> generated.
+
+Analyzing Entity <register_file> in library <work> (Architecture <behavioral>).
+Entity <register_file> analyzed. Unit <register_file> generated.
+
+Analyzing Entity <mux_2to1_16b> in library <work> (Architecture <structural>).
+Entity <mux_2to1_16b> analyzed. Unit <mux_2to1_16b> generated.
+
+Analyzing Entity <alu_16b> in library <work> (Architecture <behavioural>).
+ERROR:Xst:1549 - "H:/Comp3211/Project/project1/alu_16b.vhdl" line 69: Range bound must be a constant.
+--> 
+
+Total memory usage is 266464 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :   16 (   0 filtered)
+

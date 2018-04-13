@@ -1,0 +1,29 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'single_cycle_core'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc4vlx15-sf363-12 -global_opt off -cm area
+-ir off -pr off -c 100 -o single_cycle_core_map.ncd single_cycle_core.ngd
+single_cycle_core.pcf 
+Target Device  : xc4vlx15
+Target Package : sf363
+Target Speed   : -12
+Mapper Version : virtex4 -- $Revision: 1.55 $
+Mapped Date    : Tue Mar 20 11:51:00 2018
+
+Design Summary
+--------------
+Number of errors   :   2
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:Map:116 - The design is empty.  No processing will be done.
+ERROR:Map:52 - Problem encountered processing RPMs. 
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
