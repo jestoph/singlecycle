@@ -80,6 +80,13 @@ component mux_2to1_4b is
            data_out   : out std_logic_vector(3 downto 0) );
 end component;
 
+component mux_2to1_12b is
+    port ( mux_select : in  std_logic;
+           data_a     : in  std_logic_vector(15 downto 0);
+           data_b     : in  std_logic_vector(15 downto 0);
+           data_out   : out std_logic_vector(15 downto 0) );
+end component;
+
 component mux_2to1_16b is
     port ( mux_select : in  std_logic;
            data_a     : in  std_logic_vector(15 downto 0);
@@ -143,7 +150,7 @@ end component;
 signal sig_next_pc              : std_logic_vector(11 downto 0);
 signal sig_curr_pc              : std_logic_vector(11 downto 0);
 signal sig_one_4b               : std_logic_vector(3 downto 0);
-signal sig_one_12b               : std_logic_vector(11 downto 0);
+signal sig_one_12b              : std_logic_vector(11 downto 0);
 signal sig_pc_carry_out         : std_logic;
 signal sig_insn                 : std_logic_vector(15 downto 0);
 signal sig_sign_extended_offset : std_logic_vector(15 downto 0);
@@ -160,12 +167,15 @@ signal sig_alu_src_b            : std_logic_vector(15 downto 0);
 signal sig_alu_result           : std_logic_vector(15 downto 0); 
 signal sig_alu_carry_out        : std_logic;
 signal sig_data_mem_out         : std_logic_vector(15 downto 0);
-signal sig_alu_op					  : std_logic_vector(2 downto 0);
+signal sig_alu_op				: std_logic_vector(2 downto 0);
+
+signal sig_curr_pc_or_branch    : std_logic_vector(11 downto 0);
+signal do_jump                  : std_logic;
 
 begin
 
     sig_one_4b <= "0001";
-	 sig_one_12b <= "000000000001";
+	sig_one_12b <= "000000000001";
 
     pc : program_counter
     port map ( reset    => reset,
@@ -173,8 +183,17 @@ begin
                addr_in  => sig_next_pc,
                addr_out => sig_curr_pc ); 
 
+    -- Choose whether we go to PC+1 or PC+1+JumpImmediate
+    -- TODO: We'll need another mux and signal before this
+    -- In order to support branches as they read from a register
+    pc_mux : mux_2to1_12b 
+    port map ( mux_select => do_jump,
+               data_a     => sig_curr_pc, -- Default to passing on current pc
+               data_b     => sig_isn(11 downto 0),
+               data_out   => sig_curr_pc_or_branch);
+
     next_pc : adder_12b 
-    port map ( src_a     => sig_curr_pc, 
+    port map ( src_a     => sig_curr_pc_or_branch, 
                src_b     => sig_one_12b,
                sum       => sig_next_pc,   
                carry_out => sig_pc_carry_out );
