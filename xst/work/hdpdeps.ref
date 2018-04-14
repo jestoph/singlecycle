@@ -1,0 +1,131 @@
+V3 89
+FL E:/Comp3211/Project/project1/adder12b.vhdl 2018/04/12.18:20:32 P.20131013
+FL E:/Comp3211/Project/project1/adder_12b.vhdl 2018/04/12.20:46:46 P.20131013
+FL E:/Comp3211/Project/project1/adder_16b.vhd 2006/07/25.16:22:30 P.20131013
+EN work/adder_16b 1523526400 FL E:/Comp3211/Project/project1/adder_16b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder_16b/behavioural 1523526401 \
+      FL E:/Comp3211/Project/project1/adder_16b.vhd EN work/adder_16b 1523526400
+FL E:/Comp3211/Project/project1/alu_16b.vhdl 2018/04/12.21:15:14 P.20131013
+FL E:/Comp3211/Project/project1/control_unit.vhd 2018/04/12.20:57:46 P.20131013
+FL E:/Comp3211/Project/project1/data_memory.vhd 2018/04/12.19:46:20 P.20131013
+FL E:/Comp3211/Project/project1/instruction_memory.vhd 2018/04/12.18:27:26 P.20131013
+FL E:/Comp3211/Project/project1/mux_2to1_16b.vhd 2006/07/25.16:22:30 P.20131013
+FL E:/Comp3211/Project/project1/mux_2to1_1b.vhd 2006/07/25.16:22:30 P.20131013
+FL E:/Comp3211/Project/project1/mux_2to1_4b.vhd 2006/07/25.16:22:30 P.20131013
+FL E:/Comp3211/Project/project1/program_counter.vhd 2018/04/12.18:23:00 P.20131013
+FL E:/Comp3211/Project/project1/register_file.vhd 2006/07/25.16:22:30 P.20131013
+FL E:/Comp3211/Project/project1/sign_extend_4to16.vhd 2006/07/25.16:22:30 P.20131013
+FL E:/Comp3211/Project/project1/single_cycle_core.vhd 2018/04/12.20:44:52 P.20131013
+FL H:/Comp3211/Project/project1/adder_12b.vhdl 2018/04/12.20:46:46 P.20131013
+FL H:/Comp3211/Project/project1/alu_16b.vhdl 2018/04/12.21:52:12 P.20131013
+FL H:/Comp3211/Project/project1/control_unit.vhd 2018/04/12.20:57:46 P.20131013
+FL H:/Comp3211/Project/project1/data_memory.vhd 2018/04/12.19:46:20 P.20131013
+FL H:/Comp3211/Project/project1/instruction_memory.vhd 2018/04/12.18:27:26 P.20131013
+FL H:/Comp3211/Project/project1/mux_2to1_16b.vhd 2006/07/25.16:22:30 P.20131013
+FL H:/Comp3211/Project/project1/mux_2to1_1b.vhd 2006/07/25.16:22:30 P.20131013
+FL H:/Comp3211/Project/project1/mux_2to1_4b.vhd 2006/07/25.16:22:30 P.20131013
+FL H:/Comp3211/Project/project1/program_counter.vhd 2018/04/12.18:23:00 P.20131013
+FL H:/Comp3211/Project/project1/register_file.vhd 2006/07/25.16:22:30 P.20131013
+FL H:/Comp3211/Project/project1/sign_extend_4to16.vhd 2006/07/25.16:22:30 P.20131013
+FL H:/Comp3211/Project/project1/single_cycle_core.vhd 2018/04/12.21:48:20 P.20131013
+FL J:/Comp3211/originals/adder_16b.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/adder_4b.vhd 2006/07/25.16:22:30 P.20131013
+EN work/adder_4b 1521507049 FL J:/Comp3211/originals/adder_4b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder_4b/behavioural 1521507050 \
+      FL J:/Comp3211/originals/adder_4b.vhd EN work/adder_4b 1521507049
+FL J:/Comp3211/originals/control_unit.vhd 2006/07/31.12:12:02 P.20131013
+FL J:/Comp3211/originals/data_memory.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/instruction_memory.vhd 2006/07/31.12:12:22 P.20131013
+FL J:/Comp3211/originals/mux_2to1_16b.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/mux_2to1_1b.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/mux_2to1_4b.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/program_counter.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/register_file.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/sign_extend_4to16.vhd 2006/07/25.16:22:30 P.20131013
+FL J:/Comp3211/originals/single_cycle_core.vhd 2006/07/31.12:12:36 P.20131013
+FL K:/Comp3211/Project/project1/adder_12b.vhdl 2018/04/12.20:46:46 P.20131013
+EN work/adder_12b 1523616421 FL K:/Comp3211/Project/project1/adder_12b.vhdl \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/adder_12b/behavioural 1523616422 \
+      FL K:/Comp3211/Project/project1/adder_12b.vhdl EN work/adder_12b 1523616421
+FL K:/Comp3211/Project/project1/alu_16b.vhdl 2018/04/13.20:46:42 P.20131013
+EN work/alu_16b 1523616435 FL K:/Comp3211/Project/project1/alu_16b.vhdl \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179 PB ieee/NUMERIC_STD 1381692181
+AR work/alu_16b/behavioural 1523616436 \
+      FL K:/Comp3211/Project/project1/alu_16b.vhdl EN work/alu_16b 1523616435
+FL K:/Comp3211/Project/project1/control_unit.vhd 2018/04/12.20:57:46 P.20131013
+EN work/control_unit 1523616427 FL K:/Comp3211/Project/project1/control_unit.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/control_unit/behavioural 1523616428 \
+      FL K:/Comp3211/Project/project1/control_unit.vhd EN work/control_unit 1523616427
+FL K:/Comp3211/Project/project1/data_memory.vhd 2018/04/12.19:46:20 P.20131013
+EN work/data_memory 1523616437 FL K:/Comp3211/Project/project1/data_memory.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/data_memory/behavioral 1523616438 \
+      FL K:/Comp3211/Project/project1/data_memory.vhd EN work/data_memory 1523616437
+FL K:/Comp3211/Project/project1/instruction_memory.vhd 2018/04/12.18:27:26 P.20131013
+EN work/instruction_memory 1523616423 \
+      FL K:/Comp3211/Project/project1/instruction_memory.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/instruction_memory/behavioral 1523616424 \
+      FL K:/Comp3211/Project/project1/instruction_memory.vhd \
+      EN work/instruction_memory 1523616423
+FL K:/Comp3211/Project/project1/mux_2to1_16b.vhd 2006/07/25.16:22:30 P.20131013
+EN work/mux_2to1_16b 1523616433 FL K:/Comp3211/Project/project1/mux_2to1_16b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux_2to1_16b/structural 1523616434 \
+      FL K:/Comp3211/Project/project1/mux_2to1_16b.vhd EN work/mux_2to1_16b 1523616433 \
+      CP mux_2to1_1b
+FL K:/Comp3211/Project/project1/mux_2to1_1b.vhd 2006/07/25.16:22:30 P.20131013
+EN work/mux_2to1_1b 1523616417 FL K:/Comp3211/Project/project1/mux_2to1_1b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux_2to1_1b/behavioural 1523616418 \
+      FL K:/Comp3211/Project/project1/mux_2to1_1b.vhd EN work/mux_2to1_1b 1523616417
+FL K:/Comp3211/Project/project1/mux_2to1_4b.vhd 2006/07/25.16:22:30 P.20131013
+EN work/mux_2to1_4b 1523616429 FL K:/Comp3211/Project/project1/mux_2to1_4b.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/mux_2to1_4b/structural 1523616430 \
+      FL K:/Comp3211/Project/project1/mux_2to1_4b.vhd EN work/mux_2to1_4b 1523616429 \
+      CP mux_2to1_1b
+FL K:/Comp3211/Project/project1/program_counter.vhd 2018/04/12.18:23:00 P.20131013
+EN work/program_counter 1523616419 \
+      FL K:/Comp3211/Project/project1/program_counter.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/program_counter/behavioral 1523616420 \
+      FL K:/Comp3211/Project/project1/program_counter.vhd EN work/program_counter 1523616419
+FL K:/Comp3211/Project/project1/register_file.vhd 2006/07/25.16:22:30 P.20131013
+EN work/register_file 1523616431 \
+      FL K:/Comp3211/Project/project1/register_file.vhd PB ieee/std_logic_1164 1381692176 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/register_file/behavioral 1523616432 \
+      FL K:/Comp3211/Project/project1/register_file.vhd EN work/register_file 1523616431
+FL K:/Comp3211/Project/project1/sign_extend_4to16.vhd 2006/07/25.16:22:30 P.20131013
+EN work/sign_extend_4to16 1523616425 \
+      FL K:/Comp3211/Project/project1/sign_extend_4to16.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/sign_extend_4to16/behavioral 1523616426 \
+      FL K:/Comp3211/Project/project1/sign_extend_4to16.vhd \
+      EN work/sign_extend_4to16 1523616425
+FL K:/Comp3211/Project/project1/single_cycle_core.vhd 2018/04/12.21:48:20 P.20131013
+EN work/single_cycle_core 1523616439 \
+      FL K:/Comp3211/Project/project1/single_cycle_core.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/single_cycle_core/structural 1523616440 \
+      FL K:/Comp3211/Project/project1/single_cycle_core.vhd \
+      EN work/single_cycle_core 1523616439 CP program_counter CP adder_12b \
+      CP instruction_memory CP sign_extend_4to16 CP control_unit CP mux_2to1_4b \
+      CP register_file CP mux_2to1_16b CP alu_16b CP data_memory

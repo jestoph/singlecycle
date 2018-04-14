@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -11,14 +11,12 @@
          <ClosedNode>/single_cycle_core - structural E:|Documents|Uni|Comp3211|Project|Project 1|Git|singlecycle|single_cycle_core.vhd/mux_mem_to_reg - mux_2to1_16b - structural</ClosedNode>
          <ClosedNode>/single_cycle_core - structural E:|Documents|Uni|Comp3211|Project|Project 1|Git|singlecycle|single_cycle_core.vhd/mux_reg_dst - mux_2to1_4b - structural</ClosedNode>
       </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>branch_extend - sign_extend_4to12</SelectedItem>
-      </SelectedItems>
+      <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d50000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>branch_extend - sign_extend_4to12</CurrentItem>
+      <CurrentItem>data_mem - data_memory - behavioral (E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/data_memory.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>

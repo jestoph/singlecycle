@@ -1,0 +1,81 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to K:/Comp3211/Project/project1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.66 secs
+ 
+--> Parameter xsthdpdir set to K:/Comp3211/Project/project1/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.66 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/single_cycle_core is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/single_cycle_core.vhd", and is now defined in "K:/Comp3211/Project/project1/single_cycle_core.vhd".
+WARNING:HDLParsers:3607 - Unit work/single_cycle_core/structural is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/single_cycle_core.vhd", and is now defined in "K:/Comp3211/Project/project1/single_cycle_core.vhd".
+WARNING:HDLParsers:3607 - Unit work/adder_12b is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/adder_12b.vhdl", and is now defined in "K:/Comp3211/Project/project1/adder_12b.vhdl".
+WARNING:HDLParsers:3607 - Unit work/adder_12b/behavioural is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/adder_12b.vhdl", and is now defined in "K:/Comp3211/Project/project1/adder_12b.vhdl".
+WARNING:HDLParsers:3607 - Unit work/alu_16b is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/alu_16b.vhdl", and is now defined in "K:/Comp3211/Project/project1/alu_16b.vhdl".
+WARNING:HDLParsers:3607 - Unit work/alu_16b/behavioural is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/alu_16b.vhdl", and is now defined in "K:/Comp3211/Project/project1/alu_16b.vhdl".
+WARNING:HDLParsers:3607 - Unit work/control_unit is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/control_unit.vhd", and is now defined in "K:/Comp3211/Project/project1/control_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/control_unit/behavioural is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/control_unit.vhd", and is now defined in "K:/Comp3211/Project/project1/control_unit.vhd".
+WARNING:HDLParsers:3607 - Unit work/data_memory is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/data_memory.vhd", and is now defined in "K:/Comp3211/Project/project1/data_memory.vhd".
+WARNING:HDLParsers:3607 - Unit work/data_memory/behavioral is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/data_memory.vhd", and is now defined in "K:/Comp3211/Project/project1/data_memory.vhd".
+WARNING:HDLParsers:3607 - Unit work/instruction_memory is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/instruction_memory.vhd", and is now defined in "K:/Comp3211/Project/project1/instruction_memory.vhd".
+WARNING:HDLParsers:3607 - Unit work/instruction_memory/behavioral is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/instruction_memory.vhd", and is now defined in "K:/Comp3211/Project/project1/instruction_memory.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2to1_16b is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/mux_2to1_16b.vhd", and is now defined in "K:/Comp3211/Project/project1/mux_2to1_16b.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2to1_16b/structural is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/mux_2to1_16b.vhd", and is now defined in "K:/Comp3211/Project/project1/mux_2to1_16b.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2to1_4b is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/mux_2to1_4b.vhd", and is now defined in "K:/Comp3211/Project/project1/mux_2to1_4b.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2to1_4b/structural is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/mux_2to1_4b.vhd", and is now defined in "K:/Comp3211/Project/project1/mux_2to1_4b.vhd".
+WARNING:HDLParsers:3607 - Unit work/program_counter is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/program_counter.vhd", and is now defined in "K:/Comp3211/Project/project1/program_counter.vhd".
+WARNING:HDLParsers:3607 - Unit work/program_counter/behavioral is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/program_counter.vhd", and is now defined in "K:/Comp3211/Project/project1/program_counter.vhd".
+WARNING:HDLParsers:3607 - Unit work/register_file is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/register_file.vhd", and is now defined in "K:/Comp3211/Project/project1/register_file.vhd".
+WARNING:HDLParsers:3607 - Unit work/register_file/behavioral is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/register_file.vhd", and is now defined in "K:/Comp3211/Project/project1/register_file.vhd".
+WARNING:HDLParsers:3607 - Unit work/sign_extend_4to16 is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/sign_extend_4to16.vhd", and is now defined in "K:/Comp3211/Project/project1/sign_extend_4to16.vhd".
+WARNING:HDLParsers:3607 - Unit work/sign_extend_4to16/behavioral is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/sign_extend_4to16.vhd", and is now defined in "K:/Comp3211/Project/project1/sign_extend_4to16.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2to1_1b is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/mux_2to1_1b.vhd", and is now defined in "K:/Comp3211/Project/project1/mux_2to1_1b.vhd".
+WARNING:HDLParsers:3607 - Unit work/mux_2to1_1b/behavioural is now defined in a different file.  It was defined in "H:/Comp3211/Project/project1/mux_2to1_1b.vhd", and is now defined in "K:/Comp3211/Project/project1/mux_2to1_1b.vhd".
+Compiling vhdl file "K:/Comp3211/Project/project1/mux_2to1_1b.vhd" in Library work.
+Architecture behavioural of Entity mux_2to1_1b is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/program_counter.vhd" in Library work.
+Architecture behavioral of Entity program_counter is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/adder_12b.vhdl" in Library work.
+Architecture behavioural of Entity adder_12b is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/instruction_memory.vhd" in Library work.
+Architecture behavioral of Entity instruction_memory is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/sign_extend_4to16.vhd" in Library work.
+Architecture behavioral of Entity sign_extend_4to16 is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/control_unit.vhd" in Library work.
+Architecture behavioural of Entity control_unit is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/mux_2to1_4b.vhd" in Library work.
+Architecture structural of Entity mux_2to1_4b is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/register_file.vhd" in Library work.
+Architecture behavioral of Entity register_file is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/mux_2to1_16b.vhd" in Library work.
+Architecture structural of Entity mux_2to1_16b is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/alu_16b.vhdl" in Library work.
+Entity <alu_16b> compiled.
+Entity <alu_16b> (Architecture <behavioural>) compiled.
+Compiling vhdl file "K:/Comp3211/Project/project1/data_memory.vhd" in Library work.
+Architecture behavioral of Entity data_memory is up to date.
+Compiling vhdl file "K:/Comp3211/Project/project1/single_cycle_core.vhd" in Library work.
+Architecture structural of Entity single_cycle_core is up to date.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.44 secs
+ 
+--> 
+
+Total memory usage is 215812 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   25 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

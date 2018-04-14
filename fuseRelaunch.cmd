@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "K:/Comp3211/Project/project1/single_cycle_core_testbench_isim_beh.exe" -prj "K:/Comp3211/Project/project1/single_cycle_core_testbench_beh.prj" "work.single_cycle_core_testbench" 

@@ -8,6 +8,15 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/adder_12b.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/adder_16b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/adder_4b.vhd&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/alu_16b.vhdl&quot; into library work</arg>
 </msg>
 
@@ -18,6 +27,24 @@
 </msg>
 
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/instruction_memory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/mux_2to1_16b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/mux_2to1_1b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/mux_2to1_4b.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/program_counter.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/register_file.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/sign_extend_4to16.vhd&quot; into library work</arg>
 </msg>
 
 <msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/single_cycle_core.vhd&quot; into library work</arg>

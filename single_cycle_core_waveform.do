@@ -32,7 +32,9 @@ add wave -noupdate -format Literal -radix hexadecimal /single_cycle_core_testben
 add wave -noupdate -format Literal -radix unsigned -expand /single_cycle_core_testbench/uut/shf_r/sig_srl_16b
 add wave -noupdate -format Literal -radix unsigned -expand /single_cycle_core_testbench/uut/shf_l/sig_sll_16b
 add wave -noupdate -format Literal -radix hexadecimal /single_cycle_core_testbench/uut/shf_r/sig_srl_test
-add wave -noupdate -format Literal -radix unsigned /single_cycle_core_testbench/uut/sig_jump_flag
+add wave -noupdate -format Literal -radix unsigned /single_cycle_core_testbench/uut/alu/sig_alu_src_a
+add wave -noupdate -format Literal -radix unsigned /single_cycle_core_testbench/uut/alu/sig_alu_src_b
+add wave -noupdate -format Literal -radix unsigned /single_cycle_core_testbench/uut/sig_reg_write
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {0 ps} 0}
 configure wave -namecolwidth 205
