@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2018-04-13T22:40:56</DateModified>
+  <DateModified>2018-04-14T20:32:18</DateModified>
   <ModuleName>single_cycle_core</ModuleName>
   <SummaryTimeStamp>2018-03-20T11:50:21</SummaryTimeStamp>
-  <SavedFilePath>K:/Comp3211/Project/project1/iseconfig/single_cycle_core.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>K:/Comp3211/Project/project1\</ImplementationReportsDirectory>
+  <SavedFilePath>E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/iseconfig/single_cycle_core.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle\</ImplementationReportsDirectory>
   <DateInitialized>2018-03-20T11:49:52</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>
