@@ -8,7 +8,19 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;K:/Comp3211/Project/project1/single_cycle_core_testbench.vhw&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/alu_16b.vhdl&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/control_unit.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/data_memory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/instruction_memory.vhd&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;E:/Documents/Uni/Comp3211/Project/Project 1/Git/singlecycle/single_cycle_core.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
